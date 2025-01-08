@@ -27,12 +27,12 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
 ```bash
-  git clone https://github.com/aungmyowin/portfolio.git
+  git clone https://github.com/aungpaingsoe-dev/aungmyowin-portfolio.git
 ```
 
 2. **Navigate to the project directory:**
 ```bash
-  cd portfolio
+  cd aungmyowin-portfolio
 ```
 
 3. **Install dependencies:**
@@ -52,46 +52,6 @@ Ensure you have the following installed:
 5. **Open the app in your browser:**
 ```bash
   http://localhost:5173
-```
-
-## 🔧 ESLint Configuration (Optional)
-If you are developing a production application, consider expanding the ESLint configuration for better type-checking.
-
-### Enable Type-aware Linting
-1. **Update `parserOptions` in ESLint config:**
-```js
-export default tseslint.config({
-  languageOptions: {
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-2. **Enable recommended type-checked rules:**
-```js
-// Replace with stricter rules if necessary
-export default tseslint.config({
-  ...tseslint.configs.recommendedTypeChecked
-})
-```
-
-3. **Install `eslint-plugin-react` and configure:**
-```js
-import react from 'eslint-plugin-react';
-
-export default tseslint.config({
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    react,
-  },
-  rules: {
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
 
 ---
