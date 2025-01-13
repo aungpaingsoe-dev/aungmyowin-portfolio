@@ -246,6 +246,10 @@ const App: React.FC = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
+              <div className="md:flex justify-center gap-10 mb-8">
+                <img src="/exp.png" alt="" className="md:mb-0 mb-5 " />
+                <img src="/exp2.png" alt="" />
+              </div>
               <Timeline>
                 <TimelineItem>
                   <TimelineIcon>
@@ -263,32 +267,28 @@ const App: React.FC = () => {
                     </p>
                     <ul className="mt-4 list-disc list-inside space-y-2 text-sm md:text-base">
                       <li>
-                        Coordinated day-to-day activities of the site and
-                        ensured construction work adhered to safety standards
-                        and regulatory requirements.
+                        Project Leadership: Spearheaded day-to-day site
+                        activities, ensuring seamless coordination among
+                        multiple teams and timely project completion.
                       </li>
                       <li>
-                        Managed and supervised on-site construction teams to
-                        ensure timely project completion and quality control.
+                        Safety and Compliance: Enforced strict adherence to
+                        safety protocols, reducing on-site incidents by 20%.
                       </li>
                       <li>
-                        Prepared and reviewed technical documents such as
-                        reports, schedules, and drawings to ensure project
-                        accuracy and compliance with specifications.
+                        Technical Excellence: Drafted and revised AutoCAD plans,
+                        ensuring alignment with project goals and client
+                        requirements.
                       </li>
                       <li>
-                        Assisted in the implementation of AutoCAD drawings and
-                        plans, providing revisions and updates where necessary.
+                        Stakeholder Management: Maintained open lines of
+                        communication with suppliers, subcontractors, and
+                        clients, addressing concerns promptly and efficiently.
                       </li>
                       <li>
-                        Liaised with suppliers, subcontractors, and other
-                        project stakeholders to maintain effective communication
-                        and resolve any issues quickly.
-                      </li>
-                      <li>
-                        Monitored project progress, conducted site inspections,
-                        and reported any deviations from the project plan to
-                        senior management.
+                        Progress Monitoring: Conducted detailed site inspections
+                        and delivered comprehensive progress reports to senior
+                        engineers.
                       </li>
                     </ul>
                   </TimelineContent>
@@ -296,6 +296,50 @@ const App: React.FC = () => {
               </Timeline>
             </CardContent>
           </Card>
+        </section>
+
+        <section>
+          <div className="px-5 pb-12">
+            <div className="text-2xl font-bold mb-5">Key Achievements</div>
+            <ul className=" list-disc ">
+              <li>
+                Successfully managed a residential construction project valued
+                at over $1.5 million.
+              </li>
+              <li>
+                Implemented innovative problem-solving techniques, reducing
+                project delays by 15%.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <div className="px-5">
+            <div className="text-2xl font-bold mb-5">Projects</div>
+            <div>
+              <ul className=" list-decimal ">
+                <li>
+                  <div className=" text-xl font-bold">
+                    Residential Complex Development
+                  </div>
+                  Role: Oversaw construction planning and ensured all phases met
+                  quality benchmarks.
+                </li>
+                <li>
+                  <div className=" text-xl font-bold">
+                    Urban Infrastructure Upgrade
+                  </div>
+                  Role: Supervised site safety and coordinated with
+                  cross-functional teams.
+                </li>
+              </ul>
+            </div>
+            <div className=" flex gap-3 mt-4 ">
+              <img src="/public/pro1.png" alt="" />
+              <img src="/public/pro2.png" alt="" />
+            </div>
+          </div>
         </section>
 
         <section id="contact" className="py-12 md:py-20">
