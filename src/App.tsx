@@ -336,8 +336,8 @@ const App: React.FC = () => {
               </ul>
             </div>
             <div className=" flex gap-3 mt-4 ">
-              <img src="/public/pro1.png" alt="" />
-              <img src="/public/pro2.png" alt="" />
+              <img src="/pro1.png" alt="" />
+              <img src="/pro2.png" alt="" />
             </div>
           </div>
         </section>
